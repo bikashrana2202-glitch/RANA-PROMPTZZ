@@ -5,11 +5,17 @@ box-sizing:border-box;
 font-family:Arial;
 }
 
-body{
-background:#0f0f0f;
-color:white;
-}
 
+body{
+background:#111;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+font-family:Arial;
+margin:0;
+padding:20px;
+}
 nav{
 display:flex;
 justify-content:space-between;
@@ -64,10 +70,10 @@ padding:50px;
 }
 
 .card{
-background:#1a1a1a;
-padding:20px;
-border-radius:15px;
-transition:0.3s;
+width:350px;
+background:#1b1b1b;
+border-radius:20px;
+overflow:hidden;
 }
 
 .card:hover{
@@ -134,12 +140,3 @@ background:black;
 margin-top:30px;
 }
 body{
-background:#111;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-font-family:Arial;
-margin:0;
-padding:20px;
-}
