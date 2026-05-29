@@ -133,3 +133,13 @@ padding:20px;
 background:black;
 margin-top:30px;
 }
+body{
+background:#111;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+font-family:Arial;
+margin:0;
+padding:20px;
+}
